@@ -6,6 +6,9 @@ import menu_icon from './menu_icon.svg'
 import menu_icon_dark from './menu_icon_dark.svg'
 import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
+import group_profile from './trusted_icon.svg'
+import hero_image from './hero_image.jpg'
+import bgImage1 from './bgImage1.jpg'
 
 export const assets = {
   logo,
@@ -15,7 +18,10 @@ export const assets = {
   menu_icon,
   menu_icon_dark,
   sun_icon,
-  moon_icon
+  moon_icon,
+  group_profile,
+  hero_image,
+  bgImage1
 };
 
 export default assets;

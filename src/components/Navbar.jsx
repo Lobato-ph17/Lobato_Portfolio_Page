@@ -30,8 +30,8 @@ const Navbar = ({theme, setTheme}) => {
 
           <img src={theme === 'dark' ? assets.menu_icon_dark : assets.menu_icon} alt="" onClick={()=> setSidebarOpen(true)} className='w-8 sm:hidden' />
 
-          <a href="#contact-us" className='text-sm max-sm:hidden flex items-center gap-2 bg-primary text-white px-6 py-2.5 rounded-full cursor-pointer hover:scale-105 transition-all'>
-              Connect <img src={assets.arrow_icon} width={14} alt="" />
+          <a href="#contact-us" className='text-sm max-sm:hidden flex items-center gap-2 bg-gradient-to-r from-[#064E3B] to-[#10B981] text-white px-6 py-2.5 rounded-full cursor-pointer hover:scale-105 hover:shadow-lg hover:shadow-[#10B981]/20 transition-all duration-300'>
+             Connect <img src={assets.arrow_icon} width={14} alt="" />
           </a>
         </div>
 
