@@ -18,7 +18,7 @@ const Hero = () => {
 
         <div className='relative'>
             <img src={assets.hero_image} alt="" className='w-full max-w-6xl rounded-3xl'/>
-            <img src={assets.bgImage1} alt="" className='absolute -top-40 -right-40 sm:-top-100 sm:-right-70 -z-1 dark:hidden'/>
+            <img src={assets.bgImage1} alt="" className='absolute top-5 -right-5 -z-1 opacity-80 blur-xl'/>
         </div>
 
     </div>

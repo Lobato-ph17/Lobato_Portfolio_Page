@@ -1,3 +1,6 @@
+import { FaJava, FaJs, FaReact, FaNodeJs, FaDocker, FaGitAlt } from 'react-icons/fa'
+import { SiMysql, SiSpringboot } from 'react-icons/si'
+
 import logo from "./lobato-icon.svg";
 import logo_dark from "./dark_logo.svg";
 import arrow_icon from "./arrow-icon.svg"
@@ -23,5 +26,17 @@ export const assets = {
   hero_image,
   bgImage1
 };
+
+export const techList = [
+  { name: 'Java', icon: FaJava, color: '#007396' },
+  { name: 'JavaScript', icon: FaJs, color: '#F7DF1E' },
+  { name: 'React', icon: FaReact, color: '#61DAFB' },
+  { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
+  { name: 'MySQL', icon: SiMysql, color: '#4479A1' },
+  { name: 'Docker', icon: FaDocker, color: '#2496ED' },
+  { name: 'Git', icon: FaGitAlt, color: '#F05032' },
+  { name: 'Spring Boot', icon: SiSpringboot, color: '#6DB33F' },
+]
+
 
 export default assets;
