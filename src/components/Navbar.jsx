@@ -19,9 +19,9 @@ const Navbar = ({theme, setTheme}) => {
           <img src={assets.close_icon} alt="" className='w-5 absolute right-4 top-4 sm:hidden cursor-pointer' onClick={()=>setSidebarOpen(false)}/>
 
             <a onClick={()=> setSidebarOpen(false)} href="#" className='sm:hover:border-b-2 sm:hover:border-primary transition-all'>Home</a>
-            <a onClick={()=> setSidebarOpen(false)}  href="#services" className='sm:hover:border-b-2 sm:hover:border-primary transition-all'>Services</a>
-            <a onClick={()=> setSidebarOpen(false)}  href="#our-work" className='sm:hover:border-b-2 sm:hover:border-primary transition-all'>Our Work</a>
-            <a onClick={()=> setSidebarOpen(false)}  href="#contact-us" className='sm:hover:border-b-2 sm:hover:border-primary transition-all'>Contact Me</a>
+            <a onClick={()=> setSidebarOpen(false)}  href="#Tecnologias" className='sm:hover:border-b-2 sm:hover:border-primary transition-all'>Tecnologias</a>
+            <a onClick={()=> setSidebarOpen(false)}  href="#our-work" className='sm:hover:border-b-2 sm:hover:border-primary transition-all'>Projetos</a>
+            <a onClick={()=> setSidebarOpen(false)}  href="#contact-us" className='sm:hover:border-b-2 sm:hover:border-primary transition-all'>Contato</a>
         </div>
 
         <div className='flex items-center gap-2 sm:gap-4 cursor-pointer'>

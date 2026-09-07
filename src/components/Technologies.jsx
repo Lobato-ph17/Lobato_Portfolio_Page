@@ -3,7 +3,7 @@ import { techList } from '../assets/assets'
 
 const Technologies = () => {
   return (
-    <section className='py-16 px-4 sm:px-12 lg:px-24 xl:px-40 max-w-7xl mx-auto flex flex-col items-center text-center'>
+    <section id='Tecnologias' className='py-16 px-4 sm:px-12 lg:px-24 xl:px-40 max-w-7xl mx-auto flex flex-col items-center text-center'>
 
       <h2 className='text-3xl sm:text-4xl md:text-5xl font-medium mb-12 text-gray-800 dark:text-white'>
         Minhas <span className='bg-gradient-to-r from-[#064E3B] to-[#10B981] bg-clip-text text-transparent'>Ferramentas</span>

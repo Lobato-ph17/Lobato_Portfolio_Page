@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero';
 import Technologies from './components/Technologies';
+import Projects from './components/Projects';
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light');
@@ -11,6 +12,7 @@ function App() {
       <Navbar theme={theme} setTheme={setTheme}/>
       <Hero />
       <Technologies />
+      <Projects />
     </div>
   )
 }

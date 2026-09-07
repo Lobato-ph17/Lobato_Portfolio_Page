@@ -12,6 +12,8 @@ import moon_icon from './moon_icon.svg'
 import group_profile from './trusted_icon.svg'
 import hero_image from './hero_image.jpg'
 import bgImage1 from './bgImage1.jpg'
+import plmarket_img from './plmarket.png'
+import plstock_img from './plstock.png'
 
 export const assets = {
   logo,
@@ -36,6 +38,25 @@ export const techList = [
   { name: 'Docker', icon: FaDocker, color: '#2496ED' },
   { name: 'Git', icon: FaGitAlt, color: '#F05032' },
   { name: 'Spring Boot', icon: SiSpringboot, color: '#6DB33F' },
+]
+
+export const workData = [
+  {
+    title: 'PLMARKET',
+    category: 'FULL-STACK',
+    year: '2026',
+    description: 'E-commerce completo com controle de produtos e carrinho.',
+    image: plmarket_img, 
+    link: 'https://plmarket.netlify.app/',
+  },
+  {
+    title: 'PLSTOCK',
+    category: 'FULL-STACK',
+    year: '2026',
+    description: 'Sistema de gestão e controle de estoque de produtos.',
+    image: plstock_img,
+    link: 'https://plstock.netlify.app/',
+  },
 ]
 
 
