@@ -14,6 +14,8 @@ import hero_image from './hero_image.jpg'
 import bgImage1 from './bgImage1.jpg'
 import plmarket_img from './plmarket.png'
 import plstock_img from './plstock.png'
+import person_icon from './person_icon.svg'
+import email_icon from './email_icon.svg'
 
 export const assets = {
   logo,
@@ -26,7 +28,9 @@ export const assets = {
   moon_icon,
   group_profile,
   hero_image,
-  bgImage1
+  bgImage1,
+  person_icon,
+  email_icon
 };
 
 export const techList = [
